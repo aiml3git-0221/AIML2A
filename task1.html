@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            background-color: rgb(215, 126, 221);
+        }
+        h1 {
+            text-align: center;
+            color: rgb(55, 43, 55);
+        }
+        form {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgb(254, 215, 255);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="num"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1><u>ABES 2nd Year:A</u></h1>
+    <form>
+        <label class="label" for="fname">First Name:</label>
+        <input type="text" placeholder="Enter first name" id="fname"><br>
+        <label class="label" for="lname">Last Name:</label>
+        <input type="text" placeholder="Enter last name" id="lname"><br>
+        <label class="label" for="email">Email:</label>
+        <input type="email" placeholder="Enter email id" id="email"><br>
+        <label class="label" for="pass">Password:</label>
+        <input type="password" placeholder="Enter password" id="pass"><br>
+        <label class="label" for="contact">Contact:</label>
+        <input type="num" placeholder="Enter contact number" id="contact"><br>
+        <h4>Gender:</h4>
+        <label for="gender1">Male</label>
+        <input type="checkbox" id="gender1" name="gender" value="male"><br>
+        <label for="gender2">Female</label>
+        <input type="checkbox" id="gender2" name="gender" value="female"><br>
+        <h4>Course:</h4>
+        <label for="course1">B.tech</label>
+        <input type="checkbox" id="course1" value="B.tech"><br>
+        <label for="course2">M.tech</label>
+        <input type="checkbox" id="course2" value="M.tech"><br>
+        <label for="course3">MBA</label>
+        <input type="checkbox" id="course3" value="MBA"><br>
+    </form>
+</body>
+</html>
